@@ -25,3 +25,5 @@ require (
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	golang.org/x/sys v0.0.0-20190426135247-a129542de9ae // indirect
 )
+
+replace github.com/michenriksen/aquatone => github.com/bl4ckdvck/aquatone v1.0.0
