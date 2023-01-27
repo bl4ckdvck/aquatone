@@ -9,9 +9,11 @@ Aquatone is a tool for visual inspection of websites across a large amount of ho
 3. Uncompress the zip file and move the `aquatone` binary to your desired location. You probably want to move it to a location in your `$PATH` for easier use.
 
 ### Compiling the source code
-
-If you for some reason don't trust the pre-compiled binaries, you can also compile the code yourself. **You are on your own if you want to do this. I do not support compiling problems. Good luck with it!**
-
+```
+git clone https://github.com/bl4ckdvck/aquatone.git
+cd aquatone
+go build .
+```
 ## Usage
 
 ### Command-line options:
